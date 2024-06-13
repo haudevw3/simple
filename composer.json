@@ -1,5 +1,5 @@
 {
-    "name": "foundation/foundation",
+    "name": "simple/foundation",
     "type": "project",
     "description": "A simple PHP foundation",
     "keywords": ["foundation", "simple"],
