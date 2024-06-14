@@ -10,6 +10,8 @@ return [
         Foundation\Session\SessionServiceProvider::class,
         Foundation\Routing\RoutingServiceProvider::class,
         Foundation\Validation\ValidationServiceProvider::class,
-        Foundation\View\ViewServiceProvider::class
+        Foundation\View\ViewServiceProvider::class,
+
+        App\Providers\AppServiceProvider::class,
     ]
 ];
