@@ -15,5 +15,3 @@ $app['session']->start();
 $app['session']->setPreviousUrl($app['request']->uri());
 
 $app->handle($app['request']);
-
-
