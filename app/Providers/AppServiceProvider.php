@@ -8,7 +8,7 @@ class AppServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        $this->loadRoutesFrom(base_path('routes/web.php'));
+        $this->loadRoutesFrom('routes/web.php');
     }
 
     public function register()
